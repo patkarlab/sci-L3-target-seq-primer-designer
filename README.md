@@ -9,7 +9,11 @@ pandas=1.0.1
 biopython
 bedtools=2.29.1
 primer3 (libprimer3 release 2.5.0)
+ispcr
 
+or create and activate environment in scripts directory
+    $ conda env update -f ./scripts/environment.yaml
+    $ conda activate sci-L3-target-seq-primers
 
 ## Usage
 ### Prepare input files
@@ -20,8 +24,7 @@ primer3 (libprimer3 release 2.5.0)
                     chr9	133729450	133729624	ABL1_Ex2	1	+
 #### 2. Create a CSV file containing a list of barcodes for the universal primer
 #### 3. Create a CSV file containing a list of sample specific indices
-    $ conda env update -f ./scripts/env.yaml
-    $ conda activate sci-L3-target-seq-primers
+
 
 ### Run
     $ python ./scripts/run.py -i <path to bed file> -g <path to fasta file of reference genome> -b <path to .CSV file of barcodes> -indices <path to .CSV file with sample specific indices> [options]
