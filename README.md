@@ -12,8 +12,9 @@ primer3 (libprimer3 release 2.5.0)
 ispcr  
 
 or create and activate environment in scripts directory  
->> $ conda env update -f ./scripts/environment.yaml  
->> $ conda activate sci-L3-target-seq-primers
+        
+        $ conda env update -f ./scripts/environment.yaml  
+        $ conda activate sci-L3-target-seq-primers
 
 ## Usage
 ### Prepare input files
