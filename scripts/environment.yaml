@@ -1,0 +1,12 @@
+name: sci-L3-target-seq-primers
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.6
+  - pandas=1.0.1
+  - biopython
+  - bioconda::bedtools=2.29.1
+  - bioconda::primer3
