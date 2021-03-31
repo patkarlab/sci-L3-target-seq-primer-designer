@@ -21,7 +21,7 @@ primer3 (libprimer3 release 2.5.0)
 #### 2. Create a CSV file containing a list of barcodes for the universal primer
 #### 3. Create a CSV file containing a list of sample specific indices
     $ conda env update -f ./scripts/env.yaml
-    $ conda activate LiantiPrimers
+    $ conda activate sci-L3-target-seq-primers
 
 ### Run
     $ python ./scripts/run.py -i <path to bed file> -g <path to fasta file of reference genome> -b <path to .CSV file of barcodes> -indices <path to .CSV file with sample specific indices> [options]
