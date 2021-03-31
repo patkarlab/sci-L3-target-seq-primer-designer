@@ -11,17 +11,18 @@ bedtools=2.29.1
 primer3 (libprimer3 release 2.5.0)  
 ispcr  
 
-or create and activate environment in scripts directory
-    $ conda env update -f ./scripts/environment.yaml
-    $ conda activate sci-L3-target-seq-primers
+or create and activate environment in scripts directory  
+>> $ conda env update -f ./scripts/environment.yaml  
+>> $ conda activate sci-L3-target-seq-primers
 
 ## Usage
 ### Prepare input files
 #### 1. Create a BED6 file containing the regions to be targetted.
-                The tab-delimeted 6 columns should be chromosome, region start, region end, unique gene/exon name (without spaces), score(default 1 for all), strand(+ or -)
-                Example:
-                    chr9	133589332	133589842	ABL1_Ex1	1	+
-                    chr9	133729450	133729624	ABL1_Ex2	1	+
+        Tab-delimeted 6 columns with .bed extension:
+        [chromosome, region start, region end, unique gene/exon name (without spaces), score(default 1 for all), strand(+ or -)]
+        Example:
+            chr9	133589332	133589842	ABL1_Ex1	1	+
+            chr9	133729450	133729624	ABL1_Ex2	1	+
 #### 2. Create a CSV file containing a list of barcodes for the universal primer
 #### 3. Create a CSV file containing a list of sample specific indices
 
