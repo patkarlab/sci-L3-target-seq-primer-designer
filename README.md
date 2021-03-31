@@ -9,7 +9,6 @@ pandas=1.0.1
 biopython  
 bedtools=2.29.1  
 primer3 (libprimer3 release 2.5.0)  
-ispcr  
 
 or create and activate environment in scripts directory  
         
