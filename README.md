@@ -18,12 +18,12 @@ or create and activate environment in scripts directory
 ## Usage
 ### Prepare input files
 #### 1. Create a BED6 file containing the regions to be targetted.
-        Tab-delimeted 6 columns with .bed extension:
+        Tab-delimited 6 columns with .bed extension:
         [chromosome, region start, region end, unique gene/exon name (without spaces), score(default 1 for all), strand(+ or -)]
         Example:
             chr9	133589332	133589842	ABL1_Ex1	1	+
             chr9	133729450	133729624	ABL1_Ex2	1	+
-#### 2. Create a CSV file containing a list of barcodes for the universal primer
+#### 2. Create a CSV file containing a list of barcodes for the universal primers
 #### 3. Create a CSV file containing a list of sample specific indices
 
 
