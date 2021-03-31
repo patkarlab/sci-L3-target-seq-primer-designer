@@ -31,7 +31,7 @@ or create and activate environment in scripts directory
 ### Run
     $ python ./scripts/run.py -i <path to bed file> -g <path to fasta file of reference genome> -b <path to .CSV file of barcodes> -indices <path to .CSV file with sample specific indices> [options]
     
-### Optional Arguuments
+### Optional Arguments
 
     -h, --help                  show this help message and exit
     -i, --input                 Enter the path to the BED or FASTA file
