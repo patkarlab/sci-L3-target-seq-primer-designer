@@ -12,7 +12,7 @@ primer3 (libprimer3 release 2.5.0)
 
 or create and activate environment.yaml in the "scripts" directory  
         
-        $ conda env update -f ./scripts/environment.yaml  
+        $ conda env create -f ./scripts/environment.yaml  
         $ conda activate sci-L3-target-seq-primers
 
 ## Usage
