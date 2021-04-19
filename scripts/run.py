@@ -74,7 +74,7 @@ fragment_size_max=200
 
 #parsing command line arguments
 def command_Parse():
-	parser = argparse.ArgumentParser(prog='python3 run.py', usage='%(prog)s -i <path to input BED or fasta file> -g <path to reference genome> [options]',
+	parser = argparse.ArgumentParser(prog='python3 run.py', usage='%(prog)s python3 run.py -i <path to input BED or fasta file> -g <path to reference genome> -indices <path to indices.csv> -b <path to barcodes.csv> [options]',
     		description='Generates primers for sci-L3-target-seq', epilog="***** sci-L3-target-seq - PRIMER DESIGNER *****\n")
 	def check_input(file):
 		base, ext = os.path.splitext(file)
