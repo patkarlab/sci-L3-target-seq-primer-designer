@@ -6,11 +6,6 @@
 # Author: Nidhi Koundinya																									 #
 # Date Created: March 31, 2021																								 #
 ##############################################################################################################################
-# Function:
-# To generate single strand consensus sequences for strand based error suppression.
-# - Consensus sequence from most common base with quality score >= Q30 and greater than <cutoff> representation
-# - Consensus quality score from addition of quality scores (i.e. product of error probabilities)
-#
 # Written for Python 3.6
 #
 # Usage:
